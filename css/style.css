@@ -28,7 +28,7 @@ time, mark, audio, video {
 }
 
 body {
-    font-family: 'Times New Roman', Times, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #000000;
     color: #ffffff;
     line-height:1;
@@ -58,7 +58,7 @@ img {
 }
 
 div {
-    height: 150px;
+    min-height: 150px;
     padding: 25px;
 }
 
@@ -83,9 +83,9 @@ div {
     text-shadow: 4px 4px 2px #c7e2c7;
 }
 
-/* changed background color from #00ff00 */
+/* changed background color from #00ff00 #005C00*/
 #green {
-    background-color: #005C00;
+    background-color: #006600;
     text-align: left;
 }
 
@@ -159,7 +159,7 @@ input, select {
     vertical-align:middle;
 }
 
-footer{
+footer p{
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
